@@ -1,2 +1,3 @@
 # spaceXtest
-This is a test question 
+API Version Note:
+The task description recommended using the SpaceX API v3. However, I deliberately chose to use v4. The v3 /rockets endpoint does not provide the flickr_images array required to display the rocket images in the slider according to the Figma design. Using v4 allowed me to fetch high-quality images directly from the API and utilize the more modern /query endpoint for efficient data filtering and population (e.g., fetching launchpad names).
